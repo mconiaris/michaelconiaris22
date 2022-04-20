@@ -5,9 +5,9 @@ Rails.application.routes.draw do
   root "welcome#index"
 
   get 'welcome/index'
-  # get 'welcome/about'
-  # get 'welcome/code'
-  # get 'welcome/photography'
-  # get 'welcome/contact'
+  get 'welcome/about'
+  get 'welcome/code'
+  get 'welcome/photography'
+  get 'welcome/contact'
 
 end
