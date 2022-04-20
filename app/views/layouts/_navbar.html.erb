@@ -1,17 +1,24 @@
 <div class="container">
     <nav>
         <ul class="nav navbar-nav">
-          <li><%= link_to "Michael Coniaris", root_path %></li>
           <li>
-            <li class="active"><a href="/">HOME</a></li>
+            <%= link_to "Michael Coniaris", root_path %>
+          </li>
+          <li>
+            <li class="active"><%= link_to "Home", welcome_index_path %></li>
           </li>          
           <li>
-            navbar item
-            </li>
+            <%= link_to "Code", welcome_code_path %>
+          </li>
           <li>
-            navbar item
-            </li>
-            navbar item
+            <%= link_to "Photos", welcome_photography_path %>
+          </li>
+          <li>
+            <%= link_to "About", welcome_about_path %>
+          </li>
+          <li>
+            <%= link_to "Contact", welcome_contact_path %>
+          </li>
         </ul>
   </nav>
 </div>
