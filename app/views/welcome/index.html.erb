@@ -9,7 +9,7 @@
 	</div>
 	<div class="index-photo">
 		<p>About</p>
-		<%= link_to image_tag("https://s3.us-east-2.amazonaws.com/media.michaelconiaris.com/images/Cat_and_Me_Small.jpeg"), welcome_about_path %>
+		<p><%= link_to(image_tag(get_about_photo[:link], alt: get_about_photo[:alt]), welcome_about_path) %></p>
 	</div>
 	<div class="index-photo">
 		<p>Contact</p>
