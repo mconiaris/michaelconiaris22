@@ -1,18 +1,18 @@
 <div class="index-container">
 	<div class="index-photo">
-		<p>Code</p>
+		<p class="index-photo-header">Code</p>
 		<p><%= link_to(image_tag(get_code_photo[:link], alt: get_code_photo[:alt]), welcome_code_path) %></p>	
 	</div>
 	<div class="index-photo">
-		<p>Photos</p>
+		<p class="index-photo-header">Photos</p>
 		<p><%= link_to(image_tag(get_photos_photo[:link], alt: get_photos_photo[:alt]), welcome_photography_path) %></p>
 	</div>
 	<div class="index-photo">
-		<p>About</p>
+		<p class="index-photo-header">About</p>
 		<p><%= link_to(image_tag(get_about_photo[:link], alt: get_about_photo[:alt]), welcome_about_path) %></p>
 	</div>
 	<div class="index-photo">
-		<p>Contact</p>
+		<p class="index-photo-header">Contact</p>
 		<p><%= link_to(image_tag(get_contact_photo[:link], alt: get_contact_photo[:alt]), welcome_contact_path) %></p>
 	</div>
 </div>
