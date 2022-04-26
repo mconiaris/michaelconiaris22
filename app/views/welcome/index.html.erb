@@ -13,6 +13,6 @@
 	</div>
 	<div class="index-photo">
 		<p>Contact</p>
-		<%= link_to image_tag("https://s3.us-east-2.amazonaws.com/media.michaelconiaris.com/images/Computer+Keyboard.jpeg"), welcome_contact_path %>
+		<p><%= link_to(image_tag(get_contact_photo[:link], alt: get_contact_photo[:alt]), welcome_contact_path) %></p>
 	</div>
 </div>
