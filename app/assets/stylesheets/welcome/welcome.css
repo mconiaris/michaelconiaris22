@@ -10,3 +10,8 @@ body {
 .page-photo {
 	max-width: 20em;
 }
+
+.page-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
