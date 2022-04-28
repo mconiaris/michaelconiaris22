@@ -1,6 +1,6 @@
 <% @title = 'Code' %>
 <div class="page-container">
-	<%= image_tag("https://s3.us-east-2.amazonaws.com/media.michaelconiaris.com/images/code_logo.jpg", class: "page-photo") %>
+	<%= image_tag(get_code_photo[:link], alt: get_code_photo[:alt]) %>
 	<div>
 		<h3>SWF Scraper App</h3>
 		<p>This program scrapes PDF cards from the Pro Wrestling Superstar game (an online simulation of a mid-1980s board game, which may be purchased <a href="https://prowrestlingsuperstar.com">here</a>, converts them to Ruby objects and then analyzes the relative strength of them based on points per round, as well as pin, sub, DQ percentage possibilities and priority rankings. The program retuns a CSV file with the values of the cards analyzed by the program.</p>
