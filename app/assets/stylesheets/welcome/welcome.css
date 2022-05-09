@@ -39,3 +39,7 @@ body {
 	height: 2em;
 	padding: 10px;
 }
+
+.photo-page-image {
+	max-width: 23;
+}
