@@ -8,11 +8,31 @@ body {
 }
 
 .page-photo {
-	max-width: 20em;
+	max-width: 25em;
 }
 
 .page-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
 	justify-items: center;
+}
+
+.photo-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+	column-gap: 20px;
+}
+
+.photo-title {
+	background-color: grey;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.photo-caption {
+	background-color: grey;
+	font-size: 0.8em;
+	margin-top: 0px;
 }
