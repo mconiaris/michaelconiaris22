@@ -31,8 +31,8 @@ module WelcomeHelper
 	# Code Page
 	def get_code_example_one_photo
 		{
-			link: "https://s3.us-east-2.amazonaws.com/media.michaelconiaris.com/images/SWF_Scrape.png",
-			alt: "Output to Terminal of the SWF Scrape App."
+			link: "https://s3.us-east-2.amazonaws.com/media.michaelconiaris.com/images/SPWG+Card+maker+Screen+Shot.png",
+			alt: "A Screenshot of the SWPG Card Maker App."
 		}
 	end
 
