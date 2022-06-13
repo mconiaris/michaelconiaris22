@@ -43,3 +43,7 @@ body {
 .photo-page-image {
 	max-width: 23;
 }
+
+p a {
+	color: #a4bdfc;
+}
