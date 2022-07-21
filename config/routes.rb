@@ -4,10 +4,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "welcome#index"
 
-  get 'welcome/index'
-  get 'welcome/about'
-  get 'welcome/code'
-  get 'welcome/photography'
-  get 'welcome/contact'
+  get 'index', to: 'welcome#index'
+  get 'about', to: 'welcome#about'
+  get 'code', to: 'welcome#code'
+  get 'photography', to: 'welcome#photography'
+  get 'contact', to: 'welcome#contact'
 
 end
