@@ -151,7 +151,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
-    reline (0.3.2)
+    reline (0.3.3)
       io-console (~> 0.5)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
